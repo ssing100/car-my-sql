@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&family=Space+Mono:wght@400;700&family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "Space Mono", monospace;
+  
+  --color-high-density-bg: #E4E3E0;
+  --color-high-density-text: #141414;
+}
+
+@layer base {
+  body {
+    @apply bg-high-density-bg text-high-density-text font-sans selection:bg-high-density-text selection:text-high-density-bg;
+  }
+}

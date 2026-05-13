@@ -1,0 +1,6 @@
+{
+  "name": "New Car Profiles",
+  "description": "A SQL-powered catalog and profile viewer for the latest car models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
